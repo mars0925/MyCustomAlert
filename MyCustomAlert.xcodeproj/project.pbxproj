@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4147822A22CDC7DA001CA095 /* AlterStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4147822922CDC7DA001CA095 /* AlterStoryboard.storyboard */; };
+		4147822C22CDC82B001CA095 /* MyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147822B22CDC82B001CA095 /* MyAlertViewController.swift */; };
+		4147822E22CDD085001CA095 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147822D22CDD085001CA095 /* AlertService.swift */; };
 		419740ED22CDC07A008A64D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419740EC22CDC07A008A64D5 /* AppDelegate.swift */; };
 		419740EF22CDC07A008A64D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419740EE22CDC07A008A64D5 /* ViewController.swift */; };
 		419740F222CDC07A008A64D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419740F022CDC07A008A64D5 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4147822922CDC7DA001CA095 /* AlterStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlterStoryboard.storyboard; sourceTree = "<group>"; };
+		4147822B22CDC82B001CA095 /* MyAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertViewController.swift; sourceTree = "<group>"; };
+		4147822D22CDD085001CA095 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 		419740E922CDC07A008A64D5 /* MyCustomAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCustomAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		419740EC22CDC07A008A64D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		419740EE22CDC07A008A64D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				419740F822CDC07C008A64D5 /* LaunchScreen.storyboard */,
 				419740FB22CDC07C008A64D5 /* Info.plist */,
 				419740F322CDC07A008A64D5 /* MyCustomAlert.xcdatamodeld */,
+				4147822922CDC7DA001CA095 /* AlterStoryboard.storyboard */,
+				4147822B22CDC82B001CA095 /* MyAlertViewController.swift */,
+				4147822D22CDD085001CA095 /* AlertService.swift */,
 			);
 			path = MyCustomAlert;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			files = (
 				419740FA22CDC07C008A64D5 /* LaunchScreen.storyboard in Resources */,
 				419740F722CDC07C008A64D5 /* Assets.xcassets in Resources */,
+				4147822A22CDC7DA001CA095 /* AlterStoryboard.storyboard in Resources */,
 				419740F222CDC07A008A64D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +151,8 @@
 				419740F522CDC07A008A64D5 /* MyCustomAlert.xcdatamodeld in Sources */,
 				419740EF22CDC07A008A64D5 /* ViewController.swift in Sources */,
 				419740ED22CDC07A008A64D5 /* AppDelegate.swift in Sources */,
+				4147822C22CDC82B001CA095 /* MyAlertViewController.swift in Sources */,
+				4147822E22CDD085001CA095 /* AlertService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
